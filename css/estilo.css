@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "head";
+  src: url("bright_dusty.otf") format("opentype");
+}
+
+.font{
+  font-family: "head";
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #e3f2fd;
+  }
+
+#fundo {
+  background-image: url('../img/livro.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+
+
+  main {
+    flex: 1 0 auto;
+  }
